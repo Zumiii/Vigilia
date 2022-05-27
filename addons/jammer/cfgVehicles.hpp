@@ -23,7 +23,6 @@ class cfgVehicles {
     author = "Zumi";
     displayName = CSTRING(Displayname);
     description = CSTRING(Description);
-    icon = QPATHTOF(data\ui\jammingsignal.paa);
     function = QFUNC(makeJammer);
     isGlobal = 0;
     isTriggerActivated = 0;

@@ -14,7 +14,7 @@
     "EDITBOX",
     [LLSTRING(settingsjammerClasses), LLSTRING(settingsjammerClasses_tooltip)],
     [LLSTRING(Category), LLSTRING(subCategory)],
-    "[B_APC_Wheeled_01_cannon_F]",
+    "[]",
     IS_SERVER_SETTINGS
 ] call CBA_fnc_addSetting;
 
