@@ -1,0 +1,12 @@
+name = "Vigilia simple jamming";
+picture = "vigilia.paa";
+actionName = "Go to the GitHub Repository";
+action = "https://github.com/Zumiii";
+description = "For issues and wiki";
+logo = "vigilia.paa";
+logoOver = "vigilia.paa";
+tooltip = "Vigilia";
+tooltipOwned = "";
+overview = "Finally, a jammer!";
+author = "Zumi";
+overviewPicture = "vigilia.paa";

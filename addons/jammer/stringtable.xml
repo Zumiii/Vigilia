@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Vigilia">
+    <Package name="Jammer">
+
+        <Key ID="STR_Vigilia_Jammer_Category">
+            <Original>Electronic warfare</Original>
+            <German>EloKa</German>
+        </Key>
+
+        <Key ID="STR_Vigilia_Jammer_subCategory">
+            <Original>Radio- and IED-jammer</Original>
+            <German>Funk- und IED-Jammer</German>
+        </Key>
+
+        <Key ID="STR_Vigilia_Jammer_Displayname">
+            <Original>Jammer module</Original>
+            <German>Störsender-Modul</German>
+        </Key>
+
+        <Key ID="STR_Vigilia_Jammer_Displayname">
+            <Original>Synchronize to objects that should act as jammers</Original>
+            <German>Synchronisiere mit Objekten, die als Störsender dienen sollen</German>
+        </Key>
+
+        <Key ID="STR_Vigilia_Jammer_enableSetting">
+            <Original>Activate jamming</Original>
+            <German>Aktiviere Jamming</German>
+        </Key>
+        <Key ID="STR_Vigilia_Jammer_enableSetting_tooltip">
+            <Original>If this feature is activated, the defined jamming vehicle class will be able to broadcast a jamming signal.</Original>
+            <German>Wenn diese Erweiterung aktiviert wird, so kann das definierte Jammer-Fahrzeug ein Störsignal aussenden.</German>
+        </Key>
+
+        <Key ID="STR_Vigilia_Jammer_settingsjammerClasses">
+            <Original>Jammer vehicle classes</Original>
+            <German>Jammer-Fahrzeugklassen</German>
+        </Key>
+        <Key ID="STR_Vigilia_Jammer_settingsjammerClasses_tooltip">
+            <Original>Enter the classnames of the vehicles that should have the jammer action.</Original>
+            <German>Trage die Klassennamen der Fahrzeuge ein, welche die Stör-Interaktion haben sollen.</German>
+        </Key>
+
+        <Key ID="STR_Vigilia_Jammer_settingsActive">
+            <Original>Active</Original>
+            <German>Aktiv</German>
+        </Key>
+
+        <Key ID="STR_Vigilia_Jammer_settingsRadioTotalJammingDistance">
+            <Original>Jamming distance</Original>
+            <German>Jammer-Reichweite</German>
+        </Key>
+        <Key ID="STR_Vigilia_Jammer_settingsRadioTotalJammingDistance_tooltip">
+            <Original>Within this distance of a jammer it will no longer be possible to radio anyone.</Original>
+            <German>Innerhalb dieser Entfernung zu einem Jammer wird das Funken komplett verunmöglicht.</German>
+        </Key>
+
+        <Key ID="STR_Vigilia_Jammer_settingsRadioPartialJammingDistance">
+            <Original>Interference distance</Original>
+            <German>Interferenz-Reichweite</German>
+        </Key>
+        <Key ID="STR_Vigilia_Jammer_settingsRadioPartialJammingDistance_tooltip">
+            <Original>Within this distance of a jammer there will be interference up to this value (meters).</Original>
+            <German>Innerhalb dieser Entfernung zu einem Jammer wird das Funken bis zu diesem Wert (Meter) gestört.</German>
+        </Key>
+
+        <Key ID="STR_Vigilia_Jammer_settingsRadioJammingStrength">
+            <Original>Jamming signal strength</Original>
+            <German>Störsignal-Stärke</German>
+        </Key>
+        <Key ID="STR_Vigilia_Jammer_settingsRadioJammingStrength_tooltip">
+            <Original>Strength of jamming signal emitted in percents.</Original>
+            <German>Stärke des Störsignals in Prozenten.</German>
+        </Key>
+
+        <Key ID="STR_Vigilia_Jammer_settingsjammIEDs">
+            <Original>Block IED triggering</Original>
+            <German>Verhindere IED-Zündungen</German>
+        </Key>
+        <Key ID="STR_Vigilia_Jammer_settingsjammIEDs_tooltip">
+            <Original>Should the jammer also block remotely triggered IEDs from detonating?</Original>
+            <German>Soll der Störsender Fernzündungen von IEDs verhindern?</German>
+        </Key>
+
+        <Key ID="STR_Vigilia_Jammer_settingsIEDJammingDistance">
+            <Original>IED jamming range</Original>
+            <German>IED-Blockier-Reichweite</German>
+        </Key>
+        <Key ID="STR_Vigilia_Jammer_settingsIEDJammingDistance_tooltip">
+            <Original>Within this distance to the jammer, IEDs that are remotely triggered will not detonate.</Original>
+            <German>Innerhalb dieser Reichweite zum Störsender verhindert dieser Fernzündungen von IEDs.</German>
+        </Key>
+
+        <Key ID="STR_Vigilia_Jammer_Enable">
+            <Original>Turn on jammer</Original>
+            <German>Störsender ein</German>
+        </Key>
+
+        <Key ID="STR_Vigilia_Jammer_Disable">
+            <Original>Turn off jammer</Original>
+            <German>Störsender aus</German>
+        </Key>
+
+    </Package>
+</Project>
