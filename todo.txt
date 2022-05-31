@@ -1,9 +1,1 @@
 
-Jammer
-
-CBA Settings
-- Jamm ieds
-- Jammer Classes
-
-Replace Classes
-Make only depending on ACE
