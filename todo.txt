@@ -1,9 +1,14 @@
 
-Jammer
+TFAR Jammer
 
-CBA Settings
-- Jamm ieds
-- Jammer Classes
-
-Replace Classes
-Make only depending on ACE
+[QGVAR(TFARJammedID), "OnBeforeTangent", {
+  params ["_unit", "_sw_or_lw", "_transceiverType", "_additionalChannelKey", "_buttonDown"];
+  private _closestJammer = [GVAR(jammers), {-(_unit distance2d _x)}, objNull] call CBA_fnc_selectBest;
+  if (isNull _closestJammer) exitwith {
+    player setVariable ["tf_sendingDistanceMultiplicator", 1];
+    player setVariable ["tf_receivingDistanceMultiplicator", 1];
+  };
+  private _multiplicator = linearConversion [(_closestJammer getVariable [QGVAR(RadioTotalJammingDistance), GVAR(RadioTotalJammingDistance)]) * (_closestJammer getVariable [QGVAR(RadioJammingStrength), GVAR(RadioJammingStrength)]), ((_closestJammer getVariable [QGVAR(RadioPartialJammingDistance), GVAR(RadioPartialJammingDistance)]) max (_closestJammer getVariable [QGVAR(RadioTotalJammingDistance), GVAR(RadioTotalJammingDistance)])) * (_closestJammer getVariable [QGVAR(RadioJammingStrength), GVAR(RadioJammingStrength)]), player distance2d _closestJammer, 0, 1, true];
+  player setVariable ["tf_sendingDistanceMultiplicator", _multiplicator];
+  player setVariable ["tf_receivingDistanceMultiplicator", _multiplicator];
+}, Player] call TFAR_fnc_addEventHandler;
