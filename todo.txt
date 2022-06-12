@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 TFAR Jammer
 
 [QGVAR(TFARJammedID), "OnBeforeTangent", {
@@ -12,3 +13,5 @@ TFAR Jammer
   player setVariable ["tf_sendingDistanceMultiplicator", _multiplicator];
   player setVariable ["tf_receivingDistanceMultiplicator", _multiplicator];
 }, Player] call TFAR_fnc_addEventHandler;
+=======
+>>>>>>> 0aec094b2d2c86c2f64e20ce23b26da4f8e1bc9b
