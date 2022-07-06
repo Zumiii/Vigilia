@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Vigilia">
+    <Package name="Miclic">
+
+        <Key ID="STR_Vigilia_MICLIC_Category">
+            <Original>Mine clearing</Original>
+            <German>Minenräumung</German>
+        </Key>
+
+        <Key ID="STR_Vigilia_MICLIC_subCategory">
+            <Original>MICLIC</Original>
+            <German>Minenräumleiter</German>
+        </Key>
+
+        <Key ID="STR_Vigilia_MICLIC_Displayname">
+            <Original>MICLIC</Original>
+            <German>Minenräumleiter</German>
+        </Key>
+
+        <Key ID="STR_Vigilia_MICLIC_Description">
+            <Original>Mine Clearing Line Charge</Original>
+            <German>Minenräumleiter</German>
+        </Key>
+
+        <Key ID="STR_Vigilia_MICLIC_Ignite">
+            <Original>Ignite</Original>
+            <German>Zünden</German>
+        </Key>
+
+        <Key ID="STR_Vigilia_MICLIC_Lit">
+            <Original>Igniting...</Original>
+            <German>Zünde...</German>
+        </Key>
+
+    </Package>
+</Project>

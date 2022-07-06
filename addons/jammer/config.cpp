@@ -14,8 +14,6 @@ class CfgPatches {
   };
 };
 
-
-
 class CfgFactionClasses {
     class NO_CATEGORY;
     class GVAR(Modules): NO_CATEGORY {
